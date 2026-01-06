@@ -1,14 +1,3 @@
-# Blender 4.2.3 LTS
-# www.blender.org
-mtllib leftwall2.mtl
-o rightWall.001
-v -1.996631 -0.003623 3.095681
-v -1.996631 -0.003623 -1.040000
-v -1.996631 1.586377 -1.040000
-v -1.996631 1.586377 3.095681
-vn 1.0000 -0.0000 -0.0000
-vt 0.000000 1.000000
-s 1
-usemtl rightWall.002
-f 1/1/1 2/1/1 3/1/1
-f 4/1/1 1/1/1 3/1/1
+version https://git-lfs.github.com/spec/v1
+oid sha256:17be4c54a6191465f609b84367d2ff56d4d1843290805db54e9716af63b8bcce
+size 311
