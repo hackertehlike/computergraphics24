@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ext/openexr/OpenEXR/doc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/doc/OpenEXR",
+			"paths" : 
+			[
+				"ext/openexr/OpenEXR/doc/TechnicalIntroduction.pdf",
+				"ext/openexr/OpenEXR/doc/ReadingAndWritingImageFiles.pdf",
+				"ext/openexr/OpenEXR/doc/OpenEXRFileLayout.pdf",
+				"ext/openexr/OpenEXR/doc/MultiViewOpenEXR.pdf",
+				"ext/openexr/OpenEXR/doc/InterpretingDeepPixels.pdf",
+				"ext/openexr/OpenEXR/doc/TheoryDeepPixels.pdf"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ext_build/openexr/OpenEXR/doc",
+		"source" : "ext/openexr/OpenEXR/doc"
+	}
+}

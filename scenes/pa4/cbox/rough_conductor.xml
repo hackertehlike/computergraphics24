@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<scene>
+	<integrator type="path_mats"/>
+
+	<camera type="perspective">
+		<float name="fov" value="27.7856"/>
+		<transform name="toWorld">
+			<scale value="-1,1,1"/>
+			<lookat target="0, 0.893051, 4.41198" origin="0, 0.919769, 5.41159" up="0, 1, 0"/>
+		</transform>
+
+		<integer name="height" value="600"/>
+		<integer name="width" value="800"/>
+	</camera>
+
+	<sampler type="independent">
+		<integer name="sampleCount" value="1024"/>
+	</sampler>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/walls.obj"/>
+
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.725 0.71 0.68"/>
+		</bsdf>
+	</mesh>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/rightwall.obj"/>
+
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.161 0.133 0.427"/>
+		</bsdf>
+	</mesh>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/leftwall.obj"/>
+
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.630 0.065 0.05"/>
+		</bsdf>
+	</mesh>
+
+	<mesh type="obj">
+		<!-- <point name="center" value="0 0.7 0.376700" />
+		<float name="radius" value="0.3263" /> -->
+
+        <string name="filename" value="meshes/bunny.obj"/>
+
+        <!-- Scale transformation -->
+        <transform name="toWorld">
+            <scale value="5 5 5"/> <!-- Change the scale factor here -->
+            <translate value="0 -0.175 0"/>
+        </transform>
+
+		<!-- Copper -->
+		<bsdf type="rough_conductor">
+            <color name="eta" value="0.200, 0.924, 1.102"/> <!-- Real part of IOR -->
+            <color name="k" value="3.912, 2.452, 2.142"/>   <!-- Imaginary part of IOR -->
+			<float name="alpha" value="1.0"/>           <!-- Roughness for a slightly polished, metallic finish -->
+		</bsdf>
+
+		<!--  Gold
+			<color name="eta" value="0.17, 0.56, 1.35"/> 
+            <color name="k" value="3.11, 2.28, 1.97"/>  
+		-->
+
+		<!-- Silver
+			<color name="eta" value="0.14, 0.13, 0.15"/> 
+            <color name="k" value="4.11, 3.97, 3.89"/>  
+		-->
+
+
+	</mesh>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/light.obj"/>
+
+		<emitter type="area">
+			<color name="radiance" value="15 15 15"/>
+		</emitter>
+	</mesh>
+</scene>

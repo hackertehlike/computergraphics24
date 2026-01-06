@@ -1,0 +1,58 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ext/openexr/OpenEXR/IlmImfExamples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/doc/OpenEXR/examples",
+			"paths" : 
+			[
+				"ext/openexr/OpenEXR/IlmImfExamples/main.cpp",
+				"ext/openexr/OpenEXR/IlmImfExamples/drawImage.cpp",
+				"ext/openexr/OpenEXR/IlmImfExamples/rgbaInterfaceExamples.cpp",
+				"ext/openexr/OpenEXR/IlmImfExamples/rgbaInterfaceTiledExamples.cpp",
+				"ext/openexr/OpenEXR/IlmImfExamples/generalInterfaceExamples.cpp",
+				"ext/openexr/OpenEXR/IlmImfExamples/lowLevelIoExamples.cpp",
+				"ext/openexr/OpenEXR/IlmImfExamples/previewImageExamples.cpp",
+				"ext/openexr/OpenEXR/IlmImfExamples/generalInterfaceTiledExamples.cpp",
+				"ext/openexr/OpenEXR/IlmImfExamples/generalInterfaceTiledExamples.h",
+				"ext/openexr/OpenEXR/IlmImfExamples/drawImage.h",
+				"ext/openexr/OpenEXR/IlmImfExamples/rgbaInterfaceExamples.h",
+				"ext/openexr/OpenEXR/IlmImfExamples/generalInterfaceExamples.h",
+				"ext/openexr/OpenEXR/IlmImfExamples/rgbaInterfaceTiledExamples.h",
+				"ext/openexr/OpenEXR/IlmImfExamples/lowLevelIoExamples.h",
+				"ext/openexr/OpenEXR/IlmImfExamples/previewImageExamples.h",
+				"ext/openexr/OpenEXR/IlmImfExamples/namespaceAlias.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ext_build/openexr/OpenEXR/IlmImfExamples",
+		"source" : "ext/openexr/OpenEXR/IlmImfExamples"
+	}
+}

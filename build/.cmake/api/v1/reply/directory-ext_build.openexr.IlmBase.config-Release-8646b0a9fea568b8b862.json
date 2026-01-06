@@ -1,0 +1,127 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ilmbase_pkg_config_help"
+		],
+		"files" : 
+		[
+			"ext/openexr/IlmBase/config/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/OpenEXR",
+			"paths" : 
+			[
+				"build/ext_build/openexr/IlmBase/config/IlmBaseConfig.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/ext_build/openexr/IlmBase/config/../IlmBase.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/IlmBase",
+			"paths" : 
+			[
+				"build/ext_build/openexr/IlmBase/config/IlmBaseConfig.cmake",
+				"build/ext_build/openexr/IlmBase/config/IlmBaseConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/IlmBase",
+			"exportName" : "IlmBase",
+			"exportTargets" : 
+			[
+				{
+					"id" : "IlmBaseConfig::@99ce0477b310eed81f2b",
+					"index" : 0
+				},
+				{
+					"id" : "Half::@bc73201a0ff31525839c",
+					"index" : 18
+				},
+				{
+					"id" : "Iex::@2d5ce12303fd5a715ea3",
+					"index" : 20
+				},
+				{
+					"id" : "IexMath::@334c737c54925b8ad8cb",
+					"index" : 21
+				},
+				{
+					"id" : "Imath::@cff27ddb2a1d5995498d",
+					"index" : 29
+				},
+				{
+					"id" : "IlmThread::@ad0fbd93a99e11f50aa5",
+					"index" : 28
+				}
+			],
+			"paths" : 
+			[
+				"ext_build/openexr/IlmBase/config/CMakeFiles/Export/ce3bf39f0d2c1badebd564a89eb8727f/IlmBaseTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ext_build/openexr/IlmBase/config",
+		"source" : "ext/openexr/IlmBase/config"
+	}
+}

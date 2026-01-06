@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ext_build/openexr/IlmBase/ImathTest",
+		"source" : "ext/openexr/IlmBase/ImathTest"
+	}
+}

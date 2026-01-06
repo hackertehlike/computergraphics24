@@ -1,0 +1,1214 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15..3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						52,
+						56
+					]
+				},
+				{
+					"build" : "ext_build",
+					"childIndexes" : 
+					[
+						2,
+						31,
+						32
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build-Release-460ec85f929d2da6861c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15..3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ext",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "ext_build/openexr",
+					"childIndexes" : 
+					[
+						3,
+						13,
+						30
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr-Release-7db9f833068bed213ada.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ext/openexr",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40
+					]
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.IlmBase-Release-84871189ad57f34ad8a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase"
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/config",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.config-Release-8646b0a9fea568b8b862.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/config"
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/Half",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.Half-Release-f51626b8179a9a95f950.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/Half",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/Iex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.Iex-Release-91b35bc84ac8662e920c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/Iex",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/IexMath",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.IexMath-Release-f7bd1dfcc5bc21e9d8cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/IexMath",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/Imath",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.Imath-Release-b1c2a830f8efa3ae56f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/Imath",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/IlmThread",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.IlmThread-Release-3080d2ce0ca3c2d46555.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/IlmThread",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/HalfTest",
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.HalfTest-Release-c4ae328a58d44da3f015.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/HalfTest",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/IexTest",
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.IexTest-Release-13d35fd8c7faa419c13f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/IexTest",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "ext_build/openexr/IlmBase/ImathTest",
+					"jsonFile" : "directory-ext_build.openexr.IlmBase.ImathTest-Release-6997388740470967a867.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ext/openexr/IlmBase/ImathTest",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR",
+					"childIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR-Release-19ff51ad021de73c748d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR"
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/config",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.config-Release-c444419bea70068bb652.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/config"
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/IlmImf",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.IlmImf-Release-917ce055df769d364557.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/IlmImf",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/IlmImfUtil",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.IlmImfUtil-Release-33b51f8f346a487eafe5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/IlmImfUtil",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/IlmImfExamples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.IlmImfExamples-Release-6f8801e17ae4eef249a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/IlmImfExamples",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/IlmImfTest",
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.IlmImfTest-Release-bd801f3e16c0535a398e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/IlmImfTest",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/IlmImfUtilTest",
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.IlmImfUtilTest-Release-80f94e9b3305c095f10f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/IlmImfUtilTest",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/IlmImfFuzzTest",
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.IlmImfFuzzTest-Release-32801b7aa53b3410594e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/IlmImfFuzzTest"
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/exr2aces",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.exr2aces-Release-c1219f4656b4d8eb1f9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/exr2aces",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/exrheader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.exrheader-Release-8c09b67c573ed3eb0021.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/exrheader",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/exrmaketiled",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.exrmaketiled-Release-f2d98fc04dff8a2ce119.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/exrmaketiled",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/exrstdattr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.exrstdattr-Release-e58456071541d597951e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/exrstdattr",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/exrmakepreview",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.exrmakepreview-Release-373848125571eed45117.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/exrmakepreview",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/exrenvmap",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.exrenvmap-Release-87705b1a32a05a44edfd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/exrenvmap",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/exrmultiview",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.exrmultiview-Release-6c09d0e2070b9ccaeeb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/exrmultiview",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/exrmultipart",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.exrmultipart-Release-8548c894853345f713c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/exrmultipart",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "ext_build/openexr/OpenEXR/doc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.openexr.OpenEXR.doc-Release-a664937f98f98f723272.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 3,
+					"source" : "ext/openexr/OpenEXR/doc"
+				},
+				{
+					"build" : "ext_build/openexr/PyIlmBase",
+					"jsonFile" : "directory-ext_build.openexr.PyIlmBase-Release-1ef78b1aa53036bacc36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "ext/openexr/PyIlmBase"
+				},
+				{
+					"build" : "ext_build/tbb",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.tbb-Release-06394ac69656217c8022.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "ext/tbb",
+					"targetIndexes" : 
+					[
+						54,
+						55
+					]
+				},
+				{
+					"build" : "ext_build/nanogui",
+					"childIndexes" : 
+					[
+						33
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext_build.nanogui-Release-9755c63c6d492c5e4f52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13..3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "ext/nanogui",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "ext_build/nanogui/ext/glfw",
+					"childIndexes" : 
+					[
+						34
+					],
+					"jsonFile" : "directory-ext_build.nanogui.ext.glfw-Release-b6cef8b16b9f67655645.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 7,
+					"source" : "ext/nanogui/ext/glfw"
+				},
+				{
+					"build" : "ext_build/nanogui/ext/glfw/src",
+					"jsonFile" : "directory-ext_build.nanogui.ext.glfw.src-Release-03d88c271302a406a27a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 7,
+					"source" : "ext/nanogui/ext/glfw/src",
+					"targetIndexes" : 
+					[
+						49,
+						50
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nori",
+					"targetIndexes" : 
+					[
+						52,
+						53,
+						56
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "OpenEXRMetaProject",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "IlmBase",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18,
+						19,
+						20,
+						21,
+						22,
+						28,
+						29,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"name" : "OpenEXR",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						23,
+						24,
+						25,
+						26,
+						27,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "PyIlmBase",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "tbb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						54,
+						55
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						7
+					],
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "nanogui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33,
+						34
+					],
+					"name" : "GLFW",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						49,
+						50
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Continuous::@c9b89c753bf581715845",
+					"jsonFile" : "target-Continuous-Release-f38bda7b3ff1f5034821.json",
+					"name" : "Continuous",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousBuild::@c9b89c753bf581715845",
+					"jsonFile" : "target-ContinuousBuild-Release-07a673da4bf8069407fa.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousConfigure::@c9b89c753bf581715845",
+					"jsonFile" : "target-ContinuousConfigure-Release-e6d5add78f349f29e03f.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousCoverage::@c9b89c753bf581715845",
+					"jsonFile" : "target-ContinuousCoverage-Release-179f58496d2cf7ac5f42.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousMemCheck::@c9b89c753bf581715845",
+					"jsonFile" : "target-ContinuousMemCheck-Release-c1a049bdafe5e3f02abe.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousStart::@c9b89c753bf581715845",
+					"jsonFile" : "target-ContinuousStart-Release-3a9905ea79e928be3ae7.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousSubmit::@c9b89c753bf581715845",
+					"jsonFile" : "target-ContinuousSubmit-Release-819b0eb3cc584192d913.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousTest::@c9b89c753bf581715845",
+					"jsonFile" : "target-ContinuousTest-Release-2b9ef982c427ff765193.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousUpdate::@c9b89c753bf581715845",
+					"jsonFile" : "target-ContinuousUpdate-Release-6471726e5165f5d79f7b.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Experimental::@c9b89c753bf581715845",
+					"jsonFile" : "target-Experimental-Release-09b32267daf41082bead.json",
+					"name" : "Experimental",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalBuild::@c9b89c753bf581715845",
+					"jsonFile" : "target-ExperimentalBuild-Release-f255bcf4a55117a3e279.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalConfigure::@c9b89c753bf581715845",
+					"jsonFile" : "target-ExperimentalConfigure-Release-7a393c38579679d5668e.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalCoverage::@c9b89c753bf581715845",
+					"jsonFile" : "target-ExperimentalCoverage-Release-d42e07274b31e68f852f.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalMemCheck::@c9b89c753bf581715845",
+					"jsonFile" : "target-ExperimentalMemCheck-Release-cd05416160a469e04373.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalStart::@c9b89c753bf581715845",
+					"jsonFile" : "target-ExperimentalStart-Release-2c705387b36447358eb4.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalSubmit::@c9b89c753bf581715845",
+					"jsonFile" : "target-ExperimentalSubmit-Release-8ced463b0c7cafa8405d.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalTest::@c9b89c753bf581715845",
+					"jsonFile" : "target-ExperimentalTest-Release-62b1f0345545d0a05671.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalUpdate::@c9b89c753bf581715845",
+					"jsonFile" : "target-ExperimentalUpdate-Release-6b0a732a7860dea2e4d0.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Half::@bc73201a0ff31525839c",
+					"jsonFile" : "target-Half-Release-cc29eaa8e6cfb5b2b2e2.json",
+					"name" : "Half",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "HalfTest::@3d7276342e774fb724f9",
+					"jsonFile" : "target-HalfTest-Release-5f5725b286dc2454a9d4.json",
+					"name" : "HalfTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Iex::@2d5ce12303fd5a715ea3",
+					"jsonFile" : "target-Iex-Release-33f8191a825b3f4819a2.json",
+					"name" : "Iex",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "IexMath::@334c737c54925b8ad8cb",
+					"jsonFile" : "target-IexMath-Release-e27c6d045e9ad84f34e7.json",
+					"name" : "IexMath",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "IexTest::@c2e9b92f218669d74d2b",
+					"jsonFile" : "target-IexTest-Release-a3a046e918f341ee5bfc.json",
+					"name" : "IexTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "IlmImf::@c7e2e96394a199d2be4c",
+					"jsonFile" : "target-IlmImf-Release-72b25e85169d888edbe8.json",
+					"name" : "IlmImf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "IlmImfExamples::@1b1f5892f3e3618dcf59",
+					"jsonFile" : "target-IlmImfExamples-Release-eb048eb1100b873640c2.json",
+					"name" : "IlmImfExamples",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "IlmImfTest::@d1f9f104a9d26b614831",
+					"jsonFile" : "target-IlmImfTest-Release-cd3db5f92356cfad16c0.json",
+					"name" : "IlmImfTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "IlmImfUtil::@412174cf5002886c546d",
+					"jsonFile" : "target-IlmImfUtil-Release-9a800b826e2517e90758.json",
+					"name" : "IlmImfUtil",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "IlmImfUtilTest::@eceea312e8e828313af1",
+					"jsonFile" : "target-IlmImfUtilTest-Release-097c46fd2916944efa7b.json",
+					"name" : "IlmImfUtilTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "IlmThread::@ad0fbd93a99e11f50aa5",
+					"jsonFile" : "target-IlmThread-Release-04b16cde423ce4c87ee9.json",
+					"name" : "IlmThread",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Imath::@cff27ddb2a1d5995498d",
+					"jsonFile" : "target-Imath-Release-b19be83d2c97c164dcdb.json",
+					"name" : "Imath",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ImathTest::@c3503f12b4ac8611d389",
+					"jsonFile" : "target-ImathTest-Release-10a5dcf567b075e8a04d.json",
+					"name" : "ImathTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nightly::@c9b89c753bf581715845",
+					"jsonFile" : "target-Nightly-Release-f7957af31a9594709944.json",
+					"name" : "Nightly",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyBuild::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlyBuild-Release-6dd1d54ba587ebfe9840.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyConfigure::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlyConfigure-Release-1e39cc9ef77dd0dcf62e.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyCoverage::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlyCoverage-Release-dcdbf189fbfc62e5ab92.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemCheck::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlyMemCheck-Release-fbaa56fdf7604aa663d3.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemoryCheck::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-d8836e69ed390773a9c6.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyStart::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlyStart-Release-a157187e1fca1d8e1467.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlySubmit::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlySubmit-Release-32b50cff5ad0cb764458.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyTest::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlyTest-Release-04d7e04c751ed1bdad0c.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyUpdate::@c9b89c753bf581715845",
+					"jsonFile" : "target-NightlyUpdate-Release-418c04ca76777e6cf89d.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "exr2aces::@3d059926e5c6b863a2dd",
+					"jsonFile" : "target-exr2aces-Release-06b51b17e5bfa584acde.json",
+					"name" : "exr2aces",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "exrenvmap::@81a635ea4dd7d7cf0609",
+					"jsonFile" : "target-exrenvmap-Release-6ad5809be0649200848d.json",
+					"name" : "exrenvmap",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "exrheader::@9329da10e691af33a416",
+					"jsonFile" : "target-exrheader-Release-79d93d7005dc1a43090c.json",
+					"name" : "exrheader",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "exrmakepreview::@7457fe3dcb3a0ac19380",
+					"jsonFile" : "target-exrmakepreview-Release-9b4ebf022f38d1e7e167.json",
+					"name" : "exrmakepreview",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "exrmaketiled::@74384779007cfde8f2f3",
+					"jsonFile" : "target-exrmaketiled-Release-f2a9573c8fec26b1720a.json",
+					"name" : "exrmaketiled",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "exrmultipart::@35983005fcf9dc178c21",
+					"jsonFile" : "target-exrmultipart-Release-e2a982a86463e1a377c6.json",
+					"name" : "exrmultipart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "exrmultiview::@a88414e447ccf2e6c5bc",
+					"jsonFile" : "target-exrmultiview-Release-88ce8d48e7bcb91e7982.json",
+					"name" : "exrmultiview",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "exrstdattr::@60da7cbbd03e2c155d2a",
+					"jsonFile" : "target-exrstdattr-Release-c7b93732a350b5217785.json",
+					"name" : "exrstdattr",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "glfw::@f80549cb7b74449af1f3",
+					"jsonFile" : "target-glfw-Release-5c486de4d3e818e5a1de.json",
+					"name" : "glfw",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "glfw_objects::@f80549cb7b74449af1f3",
+					"jsonFile" : "target-glfw_objects-Release-592108303519e2629e70.json",
+					"name" : "glfw_objects",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "nanogui::@778dc1955f638a1c4882",
+					"jsonFile" : "target-nanogui-Release-32c61e4797cecdce574e.json",
+					"name" : "nanogui",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nori::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nori-Release-807520165b51da8b6c12.json",
+					"name" : "nori",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pugixml::@1513f232e2be2c4ffccf",
+					"jsonFile" : "target-pugixml-Release-a919e2b10f0119c75e14.json",
+					"name" : "pugixml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "tbb_def_files::@3dd1ab55f51ddf8a6aef",
+					"jsonFile" : "target-tbb_def_files-Release-76cea79cf1f978b48051.json",
+					"name" : "tbb_def_files",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "tbb_static::@3dd1ab55f51ddf8a6aef",
+					"jsonFile" : "target-tbb_static-Release-384719cefcb19f2be61a.json",
+					"name" : "tbb_static",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warptest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warptest-Release-b1efc09dd797df508f3c.json",
+					"name" : "warptest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/aysegulbarlas/codestuff/cg/nori-base-24/build",
+		"source" : "/Users/aysegulbarlas/codestuff/cg/nori-base-24"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

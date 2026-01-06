@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ext/openexr/OpenEXR/exrmakepreview/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/exrmakepreview"
+			],
+			"targetId" : "exrmakepreview::@7457fe3dcb3a0ac19380",
+			"targetIndex" : 44,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "exrmakepreview::@7457fe3dcb3a0ac19380",
+				"index" : 44
+			},
+			"destination" : "bin",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ext_build/openexr/OpenEXR/exrmakepreview",
+		"source" : "ext/openexr/OpenEXR/exrmakepreview"
+	}
+}

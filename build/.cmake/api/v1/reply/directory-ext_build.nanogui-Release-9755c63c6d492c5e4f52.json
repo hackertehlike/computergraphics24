@@ -1,0 +1,155 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ext/nanogui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 509,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 513,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 516,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 520,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 529,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 542,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 546,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ext_build/nanogui/libnanogui.a"
+			],
+			"targetId" : "nanogui::@778dc1955f638a1c4882",
+			"targetIndex" : 51,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"ext/nanogui/include/nanogui"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/nanovg",
+			"paths" : 
+			[
+				{
+					"from" : "ext/nanogui/ext/nanovg/src",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"ext/nanogui/ext/glfw/include/GLFW"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ext_build/nanogui/libnanogui.a"
+			],
+			"targetId" : "nanogui::@778dc1955f638a1c4882",
+			"targetIndex" : 51,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/nanogui",
+			"exportName" : "nanoguiTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "nanogui::@778dc1955f638a1c4882",
+					"index" : 51
+				}
+			],
+			"paths" : 
+			[
+				"ext_build/nanogui/CMakeFiles/Export/8772b6f7709e072d90f707b4ba2c5a04/nanoguiTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/nanogui",
+			"paths" : 
+			[
+				"build/ext_build/nanogui/nanoguiConfigVersion.cmake",
+				"build/ext_build/nanogui/nanoguiConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ext_build/nanogui",
+		"source" : "ext/nanogui"
+	}
+}
